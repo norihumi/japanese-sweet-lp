@@ -4,10 +4,19 @@
 
 ---
 
-## サイトURL（GitHub Pages） https://norihumi.github.io/japanese-sweet-lp/
+<div align="center">
+  <img src="img/full-site.png" width="60%" alt="PC版表示">
+  <img src="img/full-site-sp.png" width="30%" alt="スマホ版表示">
+</div>
 
-![LP全体画像](img/full-site.png)
+---
 
+## 概要
+- **担当範囲:** デザイン（GIMP）、コーディング（HTML5 / CSS3 / レスポンシブ対応）
+- **公開URL:** https://norihumi.github.io/japanese-sweet-lp/
+- **制作期間:** 7日
+
+---
 ## デザイン仕様
 
 ### [コンセプト]
