@@ -287,3 +287,55 @@ body{
     transform : translateY(-5px);
     box-shadow : 0 15px 15px rgba(0,0,0,0.2);
 }
+
+/* ================================
+    フッター
+================================== */
+.footer{
+    width : 100%;
+    background-image : url(img/bg-washi.jpg);
+    background-repeat : repeat;
+}
+
+.footer-container{
+    max-width : 1000px;
+    margin : 0 auto;
+    text-align : center;
+    padding : 30px 20px;
+}
+
+.footer-logo{
+    width : 33%;
+    height : auto;
+    margin-bottom : 30px;
+}
+
+.footer-address{
+    font-size : 20px;
+    letter-spacing : 5px;
+    color : #2d2d2d;
+    margin-bottom : 10px;
+}
+
+.footer-tel{
+    display : block;
+    font-size : 20px;
+    letter-spacing : 5px;
+    color : #2d2d2d;
+    text-decoration : none;
+    margin-bottom : 10px;
+}
+
+.footer-time{
+    font-size : 20px;
+    letter-spacing : 5px;
+    color : #2d2d2d;
+    margin-bottom : 30px;
+}
+
+.footer-copy{
+    border-top : 1px solid rgba(0,0,0,0.1);
+    padding-top : 10px;
+    color : #2d2d2d;
+    letter-spacing : 3px;
+}
