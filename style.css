@@ -203,3 +203,87 @@ body{
     line-height : 1.5;
     text-align : left;
 }
+
+/* ================================
+    商品案内
+================================== */
+.product{
+    width : 100%;
+    background : url(img/bg-washi.jpg);
+    background-repeat : repeat;
+}
+
+.product-container{
+    max-width : 1000px;
+    padding : 60px 20px;
+    margin : 0 auto;
+}
+
+.product-title{
+    font-size : 30px;
+    font-weight : bold;
+    color : #2d2d2d;
+    text-align : center;
+    letter-spacing : 5px;
+    margin-bottom : 60px;
+}
+
+.product-wrapper{
+    display : flex;
+    justify-content : space-around;
+    margin-bottom : 60px;
+}
+
+.product-img{
+    width : 50%;
+    height : auto;
+}
+
+.product-textbox{
+    padding : 10px;
+}
+
+.product-sub{
+    font-size : 20px;
+    font-weight : bold;
+    letter-spacing : 3px;
+    color : #166223;
+    margin : 15px 0;
+}
+
+.product-text{
+    font-size : 15px;
+    letter-spacing : 3px;
+    margin-bottom : 15px;
+    color : #2d2d2d;
+}
+
+.product-price{
+    font-size : 15px;
+    letter-spacing : 3px;
+    color : #2d2d2d;
+}
+
+.product-cta{
+    text-align : center;
+    margin : 0 auto;
+}
+
+.product-btn{
+    display : inline-block;
+    width : 50%;
+    padding : 20px 0;
+    font-size : 24px;
+    font-weight : bold;
+    color : #ffffff;
+    text-decoration : none;
+    background-image : linear-gradient(135deg, #e87a70, #d45051);
+    border-radius : 5px;
+    box-shadow : 0 10px 10px rgba(0,0,0,0.1);
+    transition : all 0.5s ease;
+}
+
+.product-btn:hover{
+    transform : translateY(-5px);
+    box-shadow : 0 15px 15px rgba(0,0,0,0.2);
+}
